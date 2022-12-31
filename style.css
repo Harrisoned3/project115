@@ -1,0 +1,15 @@
+.btn-danger:hover{
+background-color:green;
+}
+canvas{
+animation-name:RGBtoRGB;
+animation-duration: 3s;
+animation-iteration-count:infinite;
+}
+@keyframes RGBtoRGB{
+from{box-shadow:1px 1px 38px #d02020;}
+to{box-shadow:1px 1px 38px #034ee4c1;}
+}
+h3{
+font-size:25px !important;
+}
